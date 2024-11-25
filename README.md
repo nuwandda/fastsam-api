@@ -97,7 +97,7 @@ fastsam_api/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://gitlab.com/it740/refabric-selection.git
+   git clone https://github.com/nuwandda/fastsam-api.git
    cd fastsam_api
    ```
 
