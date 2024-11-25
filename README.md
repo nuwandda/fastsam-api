@@ -109,7 +109,13 @@ fastsam_api/
 3. **Set up environment variables:**
    Create a `.env` file in the root directory with necessary environment variables (e.g., `DATABASE_URL`, `DEBUG`, etc.).
 
-4. **Run the application locally:**
+4. **Download the model:**
+   ```bash
+   wget "https://huggingface.co/spaces/An-619/FastSAM/resolve/main/weights/FastSAM.pt"  --directory-prefix app/services/weights --content-disposition
+   ```
+   The model will be downloaded into the specified directory.
+
+5. **Run the application locally:**
    ```bash
    uvicorn app.main:app --reload
    ```
